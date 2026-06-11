@@ -1,0 +1,136 @@
+.headbar{
+    position: fixed;
+    display: flex;
+     justify-content: space-between;
+    flex-direction: row;
+    top: 0;
+    right: 0;
+    height: 60px;
+    background-color: rgb(14, 19, 29);
+    left: 0;
+    border-bottom-width: 1px;
+    z-index: 100;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(219, 213, 213);
+    align-items: center;
+}
+.left-bar{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.amazon-button{
+    background: transparent;
+    border: none;
+    width: 115px;
+    margin-left: 15px;
+    margin-right: 10px;
+    align-items: center;
+    }
+    .amazon-button:hover{
+        border: 1px solid white;
+    }
+.amazonbar{
+    width: 100px;
+   margin-top: 7px;
+}
+
+.middle-bar{
+      flex: 1;
+    max-width: 800px;
+    display: flex;
+    align-items: center; 
+}
+.input-bar{
+    outline: none;
+    padding: 10px 15px 10px 50px;
+    border: 1px solid rgba(185, 180, 180, 0.842);
+    outline: none;
+    flex: 1;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.05);
+}
+.button-search{
+position: relative;
+height: 40px;
+width: 65px;
+background-color: rgb(255, 200, 98);
+border: 1px solid rgb(255, 200, 98);
+border-left: none;
+border-radius: 5px;
+margin-left: -6px;
+margin-right: 8px
+
+}
+.search-img{
+    width: 40px;
+}
+.right-bar{
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+}
+.orders-button{
+ background: transparent;
+    border: none;
+    width: 100%;
+    margin-left: 5px;
+    color: white;
+    align-items: center;
+    font-size: 12px;
+}
+
+.orders-button:hover{
+    border: 1px solid white;
+}
+.span-order{
+    font-weight: bold;
+    font-size: 17px;
+}
+.all-cart{
+    position: relative;
+    margin-right: 20px;
+    width: 100%;
+}
+
+.cart-button{
+ background: transparent;
+    border: none;
+    width: 100px;
+    margin-left: 0px;
+    color: white;
+    margin-right: 10px;
+    align-items: center;
+
+
+}
+.cart-button:hover{
+    border: 1px solid white;
+}
+.cart-img{
+    width: 50%;
+    height: 100%;
+    border: none;
+    display: block;
+}
+.span-number{
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    position: absolute;
+    width: 12px;
+    background-color: orange;
+    border-radius: 50px;
+    top: 2px;
+    right: 55px;
+}
+.span-text{
+position: absolute;
+color: white;
+font-size: 20px;
+top: 18px;
+right: 15px;
+font-family: 'Times New Roman', Times, serif;
+}

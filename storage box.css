@@ -1,0 +1,102 @@
+.image-grid{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+  @media (min-width:100px) and (max-width: 600px){
+              .image-grid{
+                grid-template-columns: 1fr 1fr;
+              }
+            }
+  @media (min-width:601px) and (max-width: 815px){
+              .image-grid{
+                grid-template-columns: 1fr 1fr 1fr;
+              }
+            }
+            @media (min-width:816px) and (max-width: 1000px){
+              .image-grid{
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+              }
+            }
+            
+            @media (min-width:1000px) and (max-width: 1200px){
+              .image-grid{
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+              }
+            }
+.rectanglular-box{
+       border: 0.1px solid rgba(185, 180, 180, 0.842);
+         border-left: none;
+       padding: 20px 20px 20px 20px;
+       grid-template-columns: repeat(3,1fr);
+}
+.box-image{
+  max-width: 100%;
+  max-height: 100%;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    margin-bottom: 20px;
+}
+.text-one{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+     height: 40px;
+    margin-bottom: 17px;
+       
+}
+.stars-box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.stars-number{
+  color: #017cb6;
+    cursor: pointer;
+    margin-top: 3px;
+}
+.box-star{
+    width: 70%;
+    display: block;
+    margin-right: 5px;
+}
+.text-two{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+.input-box{
+    width: 100%;
+    outline-color: orange;
+}
+.input-box select{
+      color: rgb(33, 33, 33);
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(213, 217, 217);
+    border-radius: 8px;
+    padding: 3px 5px;
+    font-size: 15px;
+    outline-color: orange;
+    cursor: pointer;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(213, 217, 217, 0.5);
+}
+.input-box select:after{
+   border: 2px solid darkgoldenrod;
+}
+.cart-box{
+    border-radius: 12px;
+    border: none;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(255, 217, 0);
+    color: black;
+    padding: 6px 6px 6px 6px;
+    margin-top: 7px;
+    margin-bottom: 0px;
+}
+.cart-box:hover{
+    background-color: rgba(255, 251, 0, 0.774);
+}
